@@ -33,7 +33,7 @@ class ToDoItem extends StatelessWidget {
       child: ListTile(
         contentPadding: EdgeInsets.symmetric(vertical: 8.0),
         leading: Checkbox(
-          value: false,
+          value: false, onChanged: (bool? value) {  },
         ),
         title: Text(
           title,
